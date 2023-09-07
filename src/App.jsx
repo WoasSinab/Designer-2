@@ -1,3 +1,4 @@
+import Career from "./components/Career/Career";
 import Hero from "./components/Hero/Hero";
 import ShowCase from "./components/ShowCase/ShowCase";
 import WorkCus from "./components/WorkCus/WorkCus";
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <WorkCus />
       <ShowCase />
+      <Career />
     </div>
   );
 }
