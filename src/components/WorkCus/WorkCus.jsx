@@ -1,4 +1,4 @@
-const Customers = () => {
+const WorkCus = () => {
   return (
     <div className="flex md:flex-row flex-col xl:gap-x-52 md:gap-x-32 2xl:gap-x-72 my-16 justify-center items-center gap-y-16">
       <span>
@@ -17,4 +17,4 @@ const Customers = () => {
   );
 };
 
-export default Customers;
+export default WorkCus;
