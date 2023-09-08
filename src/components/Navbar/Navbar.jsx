@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className=" flex items-center justify-center lg:mx-24 my-4">
+    <div className=" flex items-center justify-center lg:mx-24 my-4 mx-4">
       <div className='navbar bg-black rounded-lg border border-gray-400/20'>
         <div className='navbar-start'>
           <div className='dropdown'>
