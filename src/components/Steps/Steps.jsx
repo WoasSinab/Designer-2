@@ -25,7 +25,7 @@ const Steps = () => {
         {imgdata.map((item) => (
           <div className="flex items-center justify-center" key={item.id}>
             {/* Tool Icon */}
-            <img src={item.img} alt='' className="w-[45px] h-[50px]"/>
+            <img src={item.img} alt='' className="w-[35px] h-[40px]"/>
           </div>
         ))}
       </div>
