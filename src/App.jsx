@@ -1,4 +1,5 @@
 import Career from "./components/Career/Career";
+import CaseStudy from "./components/CaseStudy/CaseStudy";
 import Hero from "./components/Hero/Hero";
 import ShowCase from "./components/ShowCase/ShowCase";
 import Steps from "./components/Steps/Steps";
@@ -13,6 +14,7 @@ function App() {
       <ShowCase />
       <Career />
       <Steps />
+      <CaseStudy />
     </div>
   );
 }
