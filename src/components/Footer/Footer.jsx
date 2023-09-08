@@ -13,9 +13,9 @@ const Footer = () => {
       <hr className="opacity-10 w-full"/>
 
       {/* Footer  */}
-      <div className="flex lg:flex-row flex-col justify-between items-center">
+      <div className="flex lg:flex-row flex-col justify-between items-center gap-y-10">
         <div>
-          <p className='text-gray-500'>My mail Id :</p>
+          <p className='text-gray-500'>Let Talk :</p>
           <h1 className='font-medium text-lg'>SINAB.WORK@GMAIL.COM</h1>
         </div>
         <div>
