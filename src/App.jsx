@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <WorkCus />
       <hr className='opacity-10 w-full' />
-      <ShowCase />
+      <ShowCase/>
       <Career />
       <hr className="opacity-10 w-full"/>
       <Steps />

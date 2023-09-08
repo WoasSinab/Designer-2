@@ -4,7 +4,7 @@ const Steps = () => {
   return (
     <div className='flex flex-col gap-16 lg:mx-24 mx-4 lg:my-24 my-16'>
       {/* Section Title */}
-      <h1 className='font-semibold text-center md:text-2xl text-xl'>MY 4 STEPS CREATIVE PROCESS AND TOOLS I USED 🚀</h1>
+      <h1 className='font-semibold text-center md:text-2xl text-xl'>MY 4 STEPS CREATIVE PROCESS AND TOOLS I USED</h1>
       {/* Steps Grid */}
       <div className='grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4'>
         {stepData.map((item) => (
