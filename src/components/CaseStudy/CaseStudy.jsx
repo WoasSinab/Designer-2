@@ -26,7 +26,7 @@ const CaseStudy = () => {
           Discover My Product Case Studies on Zomato, Deloitte, Freelance Projects, and Download Stunning UI Resources such as Illustrations, Design Systems, Icons, and More – All for Free!
         </p>
         {/* Additional description */}
-        <p className="text-center mb-16 text-gray-500">Unleash Your Creativity Today! 🚀</p>
+        <p className="text-center mb-16 text-gray-500">Unleash Your Creativity Today!</p>
 
         {/* Grid for Images */}
         <div className='grid sm:grid-cols-2 grid-cols-1 gap-4 xl:mx-56'>
