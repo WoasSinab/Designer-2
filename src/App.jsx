@@ -2,6 +2,7 @@ import Career from "./components/Career/Career";
 import CaseStudy from "./components/CaseStudy/CaseStudy";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
 import ShowCase from "./components/ShowCase/ShowCase";
 import Steps from "./components/Steps/Steps";
 import WorkCus from "./components/WorkCus/WorkCus";
@@ -9,6 +10,7 @@ import WorkCus from "./components/WorkCus/WorkCus";
 function App() {
   return (
     <div className='container mx-auto '>
+      <Navbar />
       <Hero />
       <WorkCus />
       <hr className='opacity-10 w-full' />
