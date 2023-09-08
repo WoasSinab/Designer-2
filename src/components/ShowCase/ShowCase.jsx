@@ -23,6 +23,7 @@ const ShowCase = () => {
           <img className='sm:w-[300px] sm:h-[300px] h-[200px] w-[200px] rounded-lg  shadow-2xl transform rotate-12' src='https://s6.uupload.ir/files/instagram_post_-_55_vh3v.png' alt='' />
         </span>
       </div>
+      <hr className="opacity-10 w-full"/>
     </div>
   );
 };
