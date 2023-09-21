@@ -1,6 +1,15 @@
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 const WorkCus = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  },[]);
+
   return (
-    <div className="flex md:flex-row flex-col xl:gap-x-52 md:gap-x-32 2xl:gap-x-72 my-16 justify-center items-center gap-y-16">
+    <div data-aos="fade-in" className="flex md:flex-row flex-col xl:gap-x-52 md:gap-x-32 2xl:gap-x-72 my-16 justify-center items-center gap-y-16">
       <span>
         <img src="https://s6.uupload.ir/files/group_1000004974_prvc.png" alt="" />
       </span>

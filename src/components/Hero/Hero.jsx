@@ -1,9 +1,19 @@
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 const Hero = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  },[]);
+
   return (
+    
     <div className='text-white mt-24 flex md:flex-row flex-col lg:mx-24 mx-4 md:justify-between'>
       <div>
         {/* Main Text  */}
-        <h1 className='font-bold text-5xl text-center md:text-left leading-tight sm:text-6xl lg:text-7xl'>
+        <h1 data-aos="fade-right" className='font-bold text-5xl text-center md:text-left leading-tight sm:text-6xl lg:text-7xl'>
           BUILDING <br /> BRANDS <br /> SINCE <br className='md:hidden' /> <span className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-bold text-8xl sm:text-6xl lg:text-7xl'>X</span> <br className='md:hidden' /> 2223
         </h1>
         <div className='my-14 flex flex-col items-center md:items-start gap-12'>

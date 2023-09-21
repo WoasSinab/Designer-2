@@ -1,12 +1,21 @@
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 const Footer = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  },[]);
+
   return (
     <div className='flex flex-col gap-16 lg:mx-24 mx-4 my-24 mb-8'>
       <div className='flex lg:flex-row flex-col justify-between w-full'>
-        <div className=' lg:w-1/2'>
+        <div data-aos="fade-left" className=' lg:w-1/2'>
           <h1 className='xl:text-7xl lg:text-5xl text-4xl mb-8'>From concept to creation, let's make it happen</h1>
           <p className='text-gray-500'>I'd love to tell you more about my projects and other stuffs. So, connect with me today and let's start a conversation about what matters most to you.</p>
         </div>
-        <div className='lg:w-1/2 flex lg:justify-end justify-center'>
+        <div data-aos="fade-right" className='lg:w-1/2 flex lg:justify-end justify-center'>
           <img src='https://s6.uupload.ir/files/clip_path_group_lfyy.png' alt='' className="px-8 my-8 lg:my-0 lg:px-0"/>
         </div>
       </div>

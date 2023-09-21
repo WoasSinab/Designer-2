@@ -1,12 +1,20 @@
 import { stepData, imgdata } from "./data";
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Steps = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  },[]);
+
   return (
-    <div className='flex flex-col gap-16 lg:mx-24 mx-4 lg:my-24 my-16'>
+    <div data-aos="fade-in" className='flex flex-col gap-16 lg:mx-24 mx-4 lg:my-24 my-16'>
       {/* Section Title */}
       <h1 className='font-semibold text-center md:text-2xl text-xl'>MY 4 STEPS CREATIVE PROCESS AND TOOLS I USED</h1>
       {/* Steps Grid */}
-      <div className='grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4'>
+      <div data-aos="fade-in" className='grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4'>
         {stepData.map((item) => (
           <div className='bg-[#0B0B0B] px-8 pb-8 pt-6' key={item.id}>
             {/* Step Image */}
