@@ -38,19 +38,19 @@ const CaseStudy = () => {
         {/* Grid for Images */}
         <div className='grid sm:grid-cols-2 grid-cols-1 gap-4 xl:mx-56'>
           {/* Individual image */}
-          <span data-aos="fade-right">
+          <span data-aos="fade-in">
             <img src='https://s6.uupload.ir/files/atlas-design-system_f2wj.png' alt='' />
           </span>
           {/* Individual image */}
-          <span data-aos="fade-left">
+          <span data-aos="fade-in">
             <img src='https://s6.uupload.ir/files/case-studies_0dz0.png' alt='' />
           </span>
           {/* Individual image */}
-          <span data-aos="fade-right">
+          <span data-aos="fade-in">
             <img src='https://s6.uupload.ir/files/dribbble-shots_qqqt.png' alt='' />
           </span>
           {/* Individual image */}
-          <span data-aos="fade-left">
+          <span data-aos="fade-in">
             <img src='https://s6.uupload.ir/files/figma-community_li2v.png' alt='' />
           </span>
         </div>
